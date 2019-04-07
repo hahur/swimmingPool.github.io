@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swimming Pool</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="pool-styles.css">
+</head>
+<body onload="startTime()">
+    <section class="header">
+        <div class="header-elm">
+            <img onclick="DeleteAllEntries()" class="burn-button" src="burn-button.svg" alt="">
+        </div>
+        <div class="header-elm">
+                <img onclick="AddEntry()" class="burn-button" src="plus.svg" alt="">
+        </div>
+    </section>
+    <section class="details">
+        <div class="CoustomerCardTime">
+            <p id="current-date"></p>
+        </div>
+        <div class="CoustomerCardInput">
+            <input class="nameEntryField" type="text" name="" id="customerName" placeholder="Enter Name"></input>
+
+        </div>
+        <div class="CoustomerCard">
+            <h4 class="name">Name</h4>
+            <p class="timeOfEntry">Time</p>
+        </div>
+    </section>
+    <script src="pool-main.js"></script>
+
+    
+</body>
+</html>
